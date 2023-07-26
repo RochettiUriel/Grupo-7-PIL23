@@ -20,16 +20,12 @@ nav{
     background-color:#7f4ca5;
 }
 
-button.btn{
-    background-color: #662D91;
+.registrarse , .ingresar{
     color: white;
-    align-items: center;
-}
-
-.ingresar{
-    color: white;
-    font-weight: bold;
     text-decoration: none;
+    align-content: right;
+    font-size: medium;
+    text-align: right;
 }
 
 .table{
