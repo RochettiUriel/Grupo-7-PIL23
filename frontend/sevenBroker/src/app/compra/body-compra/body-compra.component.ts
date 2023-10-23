@@ -14,12 +14,6 @@ export class BodyCompraComponent implements OnInit {
   constructor(private compraService: CompraService) {}
 
   ngOnInit() {
-    const datosCompra = this.compraService.getDatosCompra();
-
-    if (datosCompra) {
-      this.metodoPago = datosCompra.metodoPago;
-      this.accion = datosCompra.name;
-      this.cantidad = datosCompra.cantidad;
-    }
+  
   }
 }
